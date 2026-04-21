@@ -42,15 +42,15 @@ The **Cedar C3** is an enterprise-grade **5G Aggregation Router** that bonds up 
 
 | Feature | Details |
 |---|---|
-| 🔀 **Multi-WAN Aggregation** | Combine WAN + SIM1 + SIM2 + SIM 3 simultaneously |
+| 🔀 **Multi-WAN Aggregation** | Combine WAN + SIM1 + SIM2 + SIM3 simultaneously |
+| ⚖️ **Weighted Round Robin** | [Production config example](docs/weighted-round-robin-config.md) with 10:5:3:3 weights |
 | 🔁 **Auto Failover** | Switches to SIM in ~10s if WAN drops |
-| 📶 **Three 5G SIM** | Three active SIM slots, different carriers supported |
+| 📶 **Three 5G SIMs** | Three active SIM slots, different carriers supported |
 | 🚦 **QoS & Traffic Priority** | Prioritize VoIP, video, or critical apps |
 | 🔒 **VPN Support** | IPSec, L2TP, OpenVPN passthrough |
 | 🌍 **VLAN** | Network segmentation support |
 | 📊 **Live Monitoring** | Real-time bandwidth per WAN link |
 | 🌐 **SD-WAN-like Steering** | Policy-based routing per IP/protocol |
-| [⚖️ WRR Config Guide](docs/weighted-round-robin-config.md) | Weighted Round Robin setup with 3 SIMs + WAN |
 
 ---
 
@@ -61,6 +61,7 @@ The **Cedar C3** is an enterprise-grade **5G Aggregation Router** that bonds up 
 | [📡 Connectivity Guide](docs/connectivity.md) | SIM vs WAN — types, speeds, use cases |
 | [🔄 Failover Guide](docs/failover.md) | What happens when WAN goes down |
 | [⚡ Load Balancing Guide](docs/load-balancing.md) | How traffic aggregation works |
+| [⚖️ WRR Config Guide](docs/weighted-round-robin-config.md) | Weighted Round Robin setup with 3 SIMs + WAN |
 | [⚙️ Setup Guide](docs/setup.md) | Step-by-step configuration |
 | [🔧 Troubleshooting](docs/troubleshooting.md) | Common issues & fixes |
 | [❓ FAQ](docs/faq.md) | Frequently asked questions |
