@@ -9,7 +9,7 @@
 **You'll need:**
 - Cedar C3 router + power adapter
 - Ethernet cable (for WAN connection)
-- Up to 2 × Nano-SIM cards
+- Up to 3 × Nano-SIM cards
 - A computer or phone to access the web UI
 
 ---
@@ -17,7 +17,7 @@
 ## Step 1 — Physical Setup
 
 ```
-1. Insert SIM cards into SIM1 and SIM2 slots (Nano-SIM / 4FF size)
+1. Insert SIM cards into SIM1, SIM 2and SIM3 slots (Nano-SIM / 4FF size)
    └─ Use a SIM ejector pin or paperclip to open the tray
 
 2. Connect ISP modem/ONT → Cedar C3 WAN port (Ethernet)
@@ -69,7 +69,11 @@ Network → Mobile → SIM1
   PIN:      [if your SIM has a PIN lock]
 ```
 
-**SIM 2:** Repeat the same for SIM2.
+**SIM 2:** Repeat the same for SIM.
+
+Check signal: `Status → Mobile` — should show signal bars and an IP address.
+
+**SIM 3:** Repeat the same for SIM3.
 
 Check signal: `Status → Mobile` — should show signal bars and an IP address.
 
@@ -86,6 +90,7 @@ Algorithm: Weighted Round Robin
 WAN  → Weight: 10, ✅ Active
 SIM1 → Weight: 5,  ✅ Active  
 SIM2 → Weight: 3,  ✅ Active
+SIM3 → Weight: 3,  ✅ Active
 
 Health Check:
   Target IP: 8.8.8.8
@@ -96,6 +101,7 @@ Failover Priority:
   1. WAN
   2. SIM1
   3. SIM2
+  4. SIM3
 
 Save & Apply
 ```
@@ -125,6 +131,7 @@ Status → Overview
 WAN:  ● Green — connected
 SIM1: ● Green — connected
 SIM2: ● Green — connected
+SIM3: ● Green — connected
 
 Test failover:
   1. Unplug WAN cable
