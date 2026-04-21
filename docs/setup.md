@@ -33,7 +33,7 @@
 
 | Setting | Value |
 |---|---|
-| URL | `http://192.168.1.1` |
+| URL | `http://192.168.6.1` |
 | Username | `admin` |
 | Password | `admin` |
 
