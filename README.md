@@ -44,7 +44,7 @@ The **Cedar C3** is an enterprise-grade **5G Aggregation Router** that bonds up 
 |---|---|
 | 🔀 **Multi-WAN Aggregation** | Combine WAN + SIM1 + SIM2 + SIM 3 simultaneously |
 | 🔁 **Auto Failover** | Switches to SIM in ~10s if WAN drops |
-| 📶 **Three 5G SIM** | Two active SIM slots, different carriers supported |
+| 📶 **Three 5G SIM** | Three active SIM slots, different carriers supported |
 | 🚦 **QoS & Traffic Priority** | Prioritize VoIP, video, or critical apps |
 | 🔒 **VPN Support** | IPSec, L2TP, OpenVPN passthrough |
 | 🌍 **VLAN** | Network segmentation support |
