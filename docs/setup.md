@@ -17,7 +17,7 @@
 ## Step 1 — Physical Setup
 
 ```
-1. Insert SIM cards into SIM1, SIM 2and SIM3 slots (Nano-SIM / 4FF size)
+1. Insert SIM cards into SIM1, SIM 2 and SIM3 slots (Nano-SIM / 4FF size)
    └─ Use a SIM ejector pin or paperclip to open the tray
 
 2. Connect ISP modem/ONT → Cedar C3 WAN port (Ethernet)
