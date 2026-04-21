@@ -17,12 +17,14 @@ Example:
   WAN  = 100 Mbps
   SIM1 =  80 Mbps
   SIM2 =  50 Mbps
+  SIM3 =  50 Mbps
          ─────────
-  Total = ~230 Mbps combined capacity
+  Total = ~280 Mbps combined capacity
 
 User A streaming 4K  ──► WAN  (80 Mbps used)
 User B video call    ──► SIM1 (20 Mbps used)
 User C large upload  ──► SIM2 (30 Mbps used)
+User C large upload  ──► SIM3 (30 Mbps used)
 = All happening simultaneously without congestion ✅
 ```
 
@@ -43,6 +45,7 @@ Sends more traffic to faster/cheaper links.
 WAN:  Weight 10  (fastest, cheapest)
 SIM1: Weight 5
 SIM2: Weight 3
+SIM3: Weight 3
 ```
 
 ### 3. Least Load
@@ -85,6 +88,9 @@ SIM 1:
   Weight: 5
 
 SIM 2:
+  ✅ Active
+  Weight: 3
+SIM 3:
   ✅ Active
   Weight: 3
 
