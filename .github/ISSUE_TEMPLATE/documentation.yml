@@ -1,0 +1,36 @@
+name: Bug Report / Correction
+description: Report an error, missing info, or suggest an improvement
+title: "[DOC]: "
+labels: ["documentation"]
+assignees: []
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Which page has the issue?
+      description: e.g. `docs/setup.md`
+      placeholder: docs/setup.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong or missing?
+      description: Be as specific as possible.
+      placeholder: The installation step says X, but it should be Y because...
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested correction (if any)
+      description: What should the documentation say instead?
+      placeholder: Change "..." to "..."
+
+  - type: input
+    id: firmware
+    attributes:
+      label: Router firmware version (if relevant)
+      placeholder: e.g. v2.1.3
