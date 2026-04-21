@@ -50,6 +50,7 @@ The **Cedar C3** is an enterprise-grade **5G Aggregation Router** that bonds up 
 | 🌍 **VLAN** | Network segmentation support |
 | 📊 **Live Monitoring** | Real-time bandwidth per WAN link |
 | 🌐 **SD-WAN-like Steering** | Policy-based routing per IP/protocol |
+| [⚖️ WRR Config Guide](docs/weighted-round-robin-config.md) | Weighted Round Robin setup with 3 SIMs + WAN |
 
 ---
 
